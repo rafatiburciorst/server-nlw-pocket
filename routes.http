@@ -1,0 +1,10 @@
+@route = http://localhost:3333
+
+###
+POST {{route}}/goals
+Content-Type: application/json
+
+{
+    "title": "Nadar",
+    "desiredWeekendlyFrequency": "2"
+}
