@@ -8,3 +8,15 @@ Content-Type: application/json
     "title": "Nadar",
     "desiredWeekendlyFrequency": "2"
 }
+
+###
+GET {{route}}/pending-goals
+Content-Type: application/json
+
+###
+POST {{route}}/completions
+Content-Type: application/json
+
+{
+    "goalId": "ysz1hs9fut8toidys10ugiz7"
+}
