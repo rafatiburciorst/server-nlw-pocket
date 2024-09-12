@@ -20,3 +20,7 @@ Content-Type: application/json
 {
     "goalId": "ysz1hs9fut8toidys10ugiz7"
 }
+
+###
+GET {{route}}/summary
+Content-Type: application/json
